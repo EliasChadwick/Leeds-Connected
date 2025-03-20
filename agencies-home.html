@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leeds Connected</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="leeds-connected.css">
+</head>
+<body>
+    <div class="wrap">
+        <!-- ============= Header ============-->
+        
+        <header>
+            <div class="logo">
+                <a href="leeds-connected.html">
+                    <img class="static" src="images/leeds-connected-logo-static.jpg" alt="-logo" width="500" height="282">
+                    <img class="active" src="images/logo-animated-fast.gif" alt="-logo" width="500" height="282">
+                </a>
+            </div>
+            <nav>
+                <ul id="menu" data-menu>
+                    <li><a href="leeds-connected.html">Home</a></li>
+                    <li><a href="agencies-home.html">Agencies</a></li>
+                    <li><a href="next-steps.html">Next Steps</a></li>
+                    <li><a href="advice.html">Advice</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                </ul>
+
+                <button class="nav-toggle" aria-expanded="false" aria-controls="menu" data-menu-button>
+
+                    <svg width="25" height="20" class="closed" data-menu-button-closed>
+                        <path d="M0,2 25,2" stroke="#FFFFFF" stroke-width="4" />
+                        <path d="M0,10 25,10" stroke="#FFFFFF" stroke-width="4" />
+                        <path d="M0,18 25,18" stroke="#FFFFFF" stroke-width="4" />
+                    </svg>
+                    <svg width="20" height="20" class="open" data-menu-button-open>
+                        <path d="M2,2 18,18" stroke="#FFFFFF" stroke-width="4" />
+                        <path d="M2,18 18,2" stroke="#FFFFFF
+                        " stroke-width="4" />
+                    </svg>
+                    Menu
+                </button>
+
+            </nav>
+        </header>
+
+        <!-- ============= Main ============-->
+
+        <main class="agencies-main">
+           
+            <div class="hero">
+                    <img src="images/agency-banner.png" alt="Agencies Banner" width="1725" height="598">
+           </div>
+           
+           <div class="agencies-home-main-text">
+                <h2> Check out some of agencies Leeds and West Yorkshire have to offer below.</h2>
+           </div>
+
+           <div class="agencies-main-feature">
+               <div class="agencies-row-one">
+
+                    <article class="agencies-feature-item">
+                        <a href="ride-shotgun.html">
+                            <img src="images/ride-shotgun.png"
+                            alt="UMPF Icon" width="330" height="332">
+                        </a>
+                        <div class="agencies-info">
+                            <h2><u> Ride Shotgun </u></h2>
+                            <p>A dynamically disruptive agency that design and deliver creative content solutions.</p>
+                        </div>
+                </article>
+
+                    <article class="agencies-feature-item">
+                        <a href="umpf.html">
+                            <img src="images/umpf.png"
+                            alt="UMPF Icon" width="330" height="332">
+                        </a>
+                        <div class="agencies-info">
+                            <h2><u> UMPF </u></h2>
+                            <p>UMPF is an award-winning agency in Leeds delivering PR, social, creative and PPC.</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="agencies-row-two">
+                    <article class="agencies-feature-item">
+                        <a href="unrvld.html">
+                            <img src="images/unrvld.png" alt="UNRVLD Icon" width="330" height="332">
+                        </a>
+                        <div class="agencies-info">
+                            <h2><u> UNRVLD </u></h2>
+                            <p>Digital pioneers, committed to solving clients' greatest business challenges. </p>
+                        </div>
+                    </article>
+
+                    <article class="agencies-feature-item">
+                        <a href="dynamic.html">
+                            <img src="images/dynamic.png" alt="Dynamic Icon" width="330" height="332">
+                        </a>
+                        <div class="agencies-info">
+                            <h2><u> Dynamic </u></h2>
+                            <p>One of the UK's leading elearning design companies,  they create and deliver high-impact online learning.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- =============== Footer ============== -->
+   
+    <footer>
+        <div class="wrap-footer">
+            
+            <div class="news-logos" >
+
+                <div class="footer-logos">
+                    <img src="images/leeds-connected-logo.svg" alt="Social Media Logos">
+                    </div>
+            </div>           
+            
+            <div class="footer-newsletter">
+                <h2><u>Newsletter</u></h2>
+                    <p> Sign up for emails to receive the latest Leeds Connected news and updates </p>
+            
+                    <input type="email" class="email" name="email" id="email" placeholder="Enter Email Address">
+
+                    <button type="submit" class="sign-up-button">Sign Up</button>
+                
+            </div>
+
+            <div class="footer-socials">
+                <img src="images/social-media.svg" alt="Social Media Logos">
+            </div>
+
+            
+        </div>
+        
+    </footer>
+
+    <script src="nav.js"></script>
+</body>

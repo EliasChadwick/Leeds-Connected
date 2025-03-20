@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leeds Connected</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="leeds-connected.css">
+</head>
+<body>
+    <div class="wrap">
+        <!-- ============= Header ============-->
+        
+        <header>
+            <div class="logo">
+                <a href="leeds-connected.html">
+                    <img class="static" src="images/leeds-connected-logo-static.jpg" alt="-logo" width="500" height="282">
+                    <img class="active" src="images/logo-animated-fast.gif" alt="-logo" width="500" height="282">
+                </a>
+            </div>
+            <nav>
+                <ul id="menu" data-menu>
+                    <li><a href="leeds-connected.html">Home</a></li>
+                    <li><a href="agencies-home.html">Agencies</a></li>
+                    <li><a href="next-steps.html">Next Steps</a></li>
+                    <li><a href="advice.html">Advice</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                </ul>
+
+                <button class="nav-toggle" aria-expanded="false" aria-controls="menu" data-menu-button>
+
+                    <svg width="25" height="20" class="closed" data-menu-button-closed>
+                        <path d="M0,2 25,2" stroke="#FFFFFF" stroke-width="4" />
+                        <path d="M0,10 25,10" stroke="#FFFFFF" stroke-width="4" />
+                        <path d="M0,18 25,18" stroke="#FFFFFF" stroke-width="4" />
+                    </svg>
+                    <svg width="20" height="20" class="open" data-menu-button-open>
+                        <path d="M2,2 18,18" stroke="#FFFFFF" stroke-width="4" />
+                        <path d="M2,18 18,2" stroke="#FFFFFF
+                        " stroke-width="4" />
+                    </svg>
+                    Menu
+                </button>
+
+            </nav>
+        </header>
+
+        <!-- ============= Main ============-->
+
+        <main class="advice-main">
+           
+            <div class="hero">
+                    <img src="images/advice-banner.png" alt="Advice Banner" width="1725" height="598">
+           </div>
+
+           <div class="advice-main-text">
+                <h2> From this page you will find links to advice and support on how you can take your next steps. Whether thats college, university, apprenticeships or routes into jobs and careers. We are here to help!</h2>
+            </div>
+
+            <div class="advice-main-feature">
+               
+                <article class="advice-feature-item">
+                 <div class="advice">
+                    <div class="advice-img">
+                     <img src="images/under-16.png" alt="Under 16 advice icon" width="330" height="331">
+                     </div>
+                     <div class="advice-info">
+                     <h2><span><u> Under 16 </u></span></h2>
+                     <p>Its never too early to think about your next steps! We have lots of information, resources and tips to help you think about what you would like to do after you have finished high school.</p>
+                     <h3><span> Find Out More</span></h3>
+                 </div>
+                 </div>
+                </article>
+                 
+                 
+                     <article class="advice-feature-item">
+                         <div class="advice-reverse">
+                             <div class="advice-img">
+                                 <img src="images/16-18-years-old.png" alt="16 - 18 years old advice icon" width="330" height="331">
+                             </div>
+                             <div class="advice-info">
+                                 <h2> <span> <u>16 - 18 Years Old</u></span></h2>
+                                 <p>You have lots of options open to you at the age of 16, Do you want to do an apprenticeship, further/high education, or you just don't know yet? We can help you to make informed choices with our advice and information.</p>
+                                 <h3><span> Find Out More</span></h3>
+                             </div>
+                         </div>
+                     </article>
+
+
+                     <article class="advice-feature-item">
+                        <div class="advice">
+                           <div class="advice-img">
+                            <img src="images/just-graduated.png" alt="Just graduated advice icon" width="330" height="331">
+                            </div>
+                            <div class="advice-info">
+                            <h2><span><u> Just graduated? </u></span></h2>
+                            <p>Have you just graduated and now you're not sure what to do or how to do it?
+                                Don't worry you are not alone, whether you want to find a job or begin postgraduate study , there's a number of routes you can take and we cam help.
+                                </p>
+                            <h3><span> Find Out More</span></h3>
+                        </div>
+                        </div>
+                       </article>
+                        
+                        
+                            <article class="advice-feature-item">
+                                <div class="advice-reverse">
+                                    <div class="advice-img">
+                                        <img src="images/adults.png" alt="Adults & over 18 advice icon" width="330" height="331">
+                                    </div>
+                                    <div class="advice-info">
+                                        <h2> <span><u>Adults & over 18 </u></span></h2>
+                                        <p>Whether you're wanting to develop your skills in your current role or thinking about switching careers entirely, we have a range of courses and guidance to help your next steps</p>
+                                        <h3><span> Find Out More</span></h3>
+                                    </div>
+                                </div>
+                            </article>
+                 
+             </div>
+           
+
+        </main>
+
+        
+    </div>
+
+    <!-- =============== Footer ============== -->
+   
+    <footer>
+        <div class="wrap-footer">
+            
+            <div class="news-logos" >
+
+                <div class="footer-logos">
+                    <img src="images/leeds-connected-logo.svg" alt="Social Media Logos">
+                    </div>
+            </div>           
+            
+            <div class="footer-newsletter">
+                <h2><u>Newsletter</u></h2>
+                    <p> Sign up for emails to receive the latest Leeds Connected news and updates </p>
+            
+                    <input type="email" class="email" name="email" id="email" placeholder="Enter Email Address">
+
+                    <button type="submit" class="sign-up-button">Sign Up</button>
+                
+            </div>
+
+            <div class="footer-socials">
+                <img src="images/social-media.svg" alt="Social Media Logos">
+            </div>
+
+            
+        </div>
+        
+    </footer>
+
+    <script src="nav.js"></script>
+</body>

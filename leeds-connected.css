@@ -1,0 +1,613 @@
+/*------------------------------------*\
+   *Main Body*
+\*------------------------------------*/
+
+
+body {
+    background-color: black;
+    font-family: 'Overpass', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin: 1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.hero {
+    height: 30vh;
+}
+
+.hero img {
+    min-height: 30vh;
+    object-fit: cover;
+}
+
+.logo img{
+    width: 400px;
+}
+
+
+header{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.static {
+    position:absolute;
+    background: white;
+  }
+  
+  .static:hover {
+    opacity:0;
+  }
+
+/*------------------------------------*\
+   *Footer*
+\*------------------------------------*/
+
+footer {
+    border: 10px solid;
+    border-color: #00ff00;
+    padding-bottom: 1px;
+    border-radius: 25px;
+}
+
+.footer-column {
+    padding: 0.1em;
+    color: white;
+}
+
+.footer-column h2 {
+    margin: 0.5em 0em 0.25em 0em;
+}
+
+.footer-list {
+    margin: 0em;
+}
+
+ul.footer-list {
+    align-items: flex-start;
+    list-style-type: none;
+    padding: 0%;
+
+}
+ .footer-logos {
+     margin: 1em auto;
+     width: 200px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .footer-socials {
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+ .footer-newsletter h2 {
+     color: white;
+    margin: 0.5em 0em 0.25em 0em;
+}
+
+ .footer-newsletter p {
+    color: white;
+    display: flex;
+    justify-content:center;
+    padding: 0 20px;
+}
+
+.footer-newsletter {
+   padding-bottom: 20px;
+}
+
+.email {
+    background-color: #00ff00;
+    padding: 5px;
+    border: 0em;
+}
+
+.sign-up-button {
+    background-color:#00ff00 ;
+    color: black;
+    padding: 5px;
+    border: 0;
+}
+
+input::placeholder {
+    color: black;
+}
+
+
+
+/*------------------------------------*\
+   *Navigation*
+\*------------------------------------*/
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    padding: .5em 0;
+}
+
+nav .nav-toggle {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 3;
+    color: white;
+}
+
+nav button {
+    display: inline-block;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    background: transparent;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+/*------------------------------------*\
+   *Text Styles*
+\*------------------------------------*/
+
+.fake h2{
+    color: white;
+    margin-top: 200px;
+    font-size: 400%;
+}
+
+.home-feature-item h2 {
+    color: white;
+}
+
+/*------------------------------------*\
+   *Home Page*
+\*------------------------------------*/
+
+.main-text {
+    font-family: 'Overpass', Arial, Helvetica, sans-serif;
+    font-weight:500;
+    color: white;
+    font-size: 150%;
+    margin: 100px 0px;
+}
+
+.home-feature-item {
+width: 100%;
+color: white;
+font-size: 150% ;
+}
+    
+.feature-headings{
+    font-family: 'Overpass', Arial, Helvetica, sans-serif;
+    font-weight:500;
+    color: white;
+    font-size: 200%;
+    
+}
+
+.map img{
+    width: 100%;
+    height: auto;
+    margin: 0 0 100px 0;
+    object-fit: cover;
+    border: 10px solid;
+    border-color: white;
+    padding-bottom: 1px;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        height: auto;
+    }
+
+    .hero-image {
+        min-height:auto;
+    }
+}
+
+/*------------------------------------*\
+   *Agency Home Page*
+\*------------------------------------*/
+
+.agencies-home-main-text {
+    font-family: 'Overpass', Arial, Helvetica, sans-serif;
+    font-weight:500;
+    color: white;
+    font-size: 150%;
+    margin-top: 100px;
+}
+
+.agencies-feature-item {
+    color: white;
+    font-size: 150% ;
+}
+
+.agencies-feature-item h2 {
+    color: white;
+}
+
+
+/*------------------------------------*\
+   *Agency Individual Page*
+\*------------------------------------*/
+
+.agencies-main-text {
+    font-family: 'Overpass', Arial, Helvetica, sans-serif;
+    font-weight:500;
+    color: white;
+    font-size: 150%;
+}
+
+.individual-feature-item {
+    color: white;
+    font-size: 150% ;
+}
+
+
+.individual-feature-item p{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.individual-feature-item-video video {
+    width: 100%;
+    height: auto;
+    margin: 0 0 100px 0;
+    object-fit: cover;
+    border: 10px solid;
+    border-color: white;
+    padding-bottom: 1px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+
+/*------------------------------------*\
+   *Advice Page*
+\*------------------------------------*/
+
+
+.advice-main-text {
+    font-family: 'Overpass', Arial, Helvetica, sans-serif;
+    font-weight:500;
+    color: white;
+    font-size: 150%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.advice-feature-item {
+    width: 100;
+    color: white;
+    font-size: 150% ;
+    margin-bottom: 60px;
+}
+
+.advice-feature-item h2 span {
+    color: white;
+    padding: 10px 20px 5px 20px;
+    border-radius: 25px;
+}
+
+.advice-feature-item h3 span {
+    background-color: #00ff00;
+    color: black;
+    padding: 10px 20px 5px 20px;
+    border-radius: 25px;
+}
+
+
+/*------------------------------------*\
+   *FAQS Page*
+\*------------------------------------*/
+
+.main-text {
+    font-family: 'Overpass', Arial, Helvetica, sans-serif;
+    font-weight:500;
+    color: white;
+    font-size: 150%;
+}
+
+.faqs-feature-item {
+    color: white;
+    font-size: 150% ;
+}
+
+
+.faqs-question{
+    border: 10px solid;
+    border-color: white;
+    padding-bottom: 1px;
+    border-radius: 25px;
+    margin-bottom: 25px 0;
+}
+
+.faqs-question p{
+   margin: 0 10px 10px 10px;
+}
+
+/*-----------------------------------------------------------------------------*\
+----------------------------------*Media Page*-----------------------------------
+\*-----------------------------------------------------------------------------*/
+
+
+/*------------------------------------*\
+   Home Page - Footer - Nav*
+\*------------------------------------*/
+
+@media screen and (min-width: 660px) {
+    .wrap-footer{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-evenly;
+    }
+
+    .home-feature-item{
+        margin: 10px;
+    }
+
+    .main-feature{
+        display: flex;
+
+    }
+    
+    .main-feature img{
+        width:100%;
+        height: auto;
+    }
+
+    .news-logos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .wrap-footer{
+        display: flex;
+        justify-content: space-evenly
+    }
+
+    header{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .logo img{
+        width: 400px;
+    }
+
+    .footer-socials{
+        margin-bottom: 0%;
+    }
+
+    .sign-up-button{
+        margin-top: 5px;
+    }
+
+
+    /*------------------------------------*\
+     *Agency Media Page*
+    \*------------------------------------*/
+
+    .agencies-main-feature{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .agencies-row-one{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+    }
+
+    .agencies-row-one img{
+        width: auto;
+    }
+
+    .agencies-row-two{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+    }
+
+    .agencies-row-two img{
+        width: auto;
+    }
+
+    .agencies-feature-item{
+        width: 525px;
+
+    }
+
+    /*------------------------------------*\
+     *Individual Agency Media Page*
+    \*------------------------------------*/
+
+    .individual-feature-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .individual-feature-item h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+ 
+    .individual-row-one{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .individual-row-one img{
+        width: auto;
+        margin: 0%;
+    }
+
+    .individual-feature-item p{
+        margin-top: 0;
+        margin-bottom: 100px;
+    }
+
+    /*------------------------------------*\
+     *Advice Media Page*
+    \*------------------------------------*/
+
+    .advice-main-feature{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .advice{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 40px 0px
+    }
+
+    .advice-img{
+        display: flex;
+        height:100%;
+
+    }
+
+    .advice-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .advice-feature-item img{
+        width: auto;
+    }
+
+    .advice-reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        margin: 40px 0px;
+    }
+}
+
+    /*------------------------------------*\
+     *FAQS Media Page*
+    \*------------------------------------*/
+
+    .faqs-feature-item{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faqs-feature-item h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .faqs-feature-item p{
+        margin-top: 0;
+        margin-bottom: 30px
+    }
+
+    .faqs-question{
+        margin-bottom: 50px;
+    }
+
+    
+
+
+@media screen and (min-width: 950px){
+    nav .nav-toggle{
+        display: none;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: end;
+        content: block;
+        align-items: baseline;
+    }
+
+    nav ul li{
+        margin: 0 2em;
+    }
+
+    nav ul li a{
+        font-size: 2em;
+    }
+
+    .faqs-row-one{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .faqs-question{
+        width: 665px;
+        height:auto;
+        margin: 0 25px 50px 25px;
+    }
+
+}
+
+    @media screen and (min-width: 1060px) {
+ .map img{
+        height: 700px;
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .dining-feature-item{
+        display: flex;
+        flex-direction: row;
+        width: 675px;
+        height: 332px;
+    }
+    
+    .advice-main-feature{
+        margin: 0px 100px;
+    }
+
+    .map img{
+        height: 700px;
+        width: 1000px;
+    }
+
+    .individual-feature-item-video video{
+        height: 780px;
+        width: 1280px;
+    }
+
+
+}
